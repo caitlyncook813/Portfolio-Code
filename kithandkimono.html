@@ -1,0 +1,205 @@
+<html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title> Portfolio</title>
+    <link rel="stylesheet" href="bootstrap-grid.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Roboto&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+</head>
+<nav>
+    <ul>
+        <li> <a href="home.html">home</a></li>
+        <li><a href="#myprojects">projects</a></li>
+        <li class="empty"></li>
+        <li><a href="#contact">blog</a></li>
+        <li><a href="#contact">contact</a></li>
+
+    </ul>
+</nav>
+<header>
+    <div class="container">
+        <div class="row">
+            <!-- left column -->
+            <div class="col-sm">
+                <h1 class="introduction">HELLO, I'M</h1> <br />
+                <h1 class="introduction2"> CAITLYN </h1>
+            </div>
+
+            <!-- right colum -->
+            <div class="col-sm">
+                <img src="headshot.png" class="intro-img" alt="Image Title" />
+            </div>
+        </div>
+    </div>
+
+</header>
+
+<body>
+
+    <!-- About Me -->
+    <section>
+        <div class="about">
+            <h1> About Me </h1>
+            <p> Web Designer with 4 years of experince in design and usablity. I've worked with multiple small businesses
+                to create and manage their websites! </p>
+
+            <a id="downloadLink" href="myresume.pdf" target="_blank" type="application/octet-stream" download="myresume.pdf" class="about-button">Check Out My Resume</a>
+
+        </div>
+    </section>
+
+    <!-- projects -->
+
+    <!-- project 1 -->
+
+    <section class="projectblue" id="myprojects">
+        <div class="container">
+            <div class="row">
+                <!-- left column -->
+                <div class="col-sm right-alignment">
+                    <h2> Upward Marketing Website Design </h2>
+
+                    <p> Upward Marketing is a digital marketing business based out of New York.
+                        They use ROI (Return On Investment) focused marketing solutions that help
+                        companies across the United States generate long-term revenue.</p>
+
+                    <p>After not receiving the expected results from their website they decided to check
+                        out their competition. That’s when they realized their website was going to need a
+                        complete makeover to start seeing results and that is when they contacted me.
+                    </p>
+                    <a href="Upwardmarketing.html" class="button3">read more</a>
+                </div>
+
+                <!-- right column -->
+                <div class="col-6">
+                    <a href="Upwardmarketing.html">
+                        <img src="upwardimg.png" alt="Upwards Homepage" />
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- project 2 -->
+    <section class="project">
+        <div class="container">
+            <div class="row">
+                <!-- left column -->
+                <div class="col-sm">
+                    <a href="kithandkimono.html">
+                        <img src="kithimg.png" alt="Kith's Homepage" /> </a>
+                </div>
+
+
+
+                <!-- right column -->
+                <div class="col-sm">
+
+                    <h2> Kith & Kimono Website Design </h2>
+                    <p> Kith & Kimono is an environmentally safe clothing brand
+                        based out of San Francisco. They sell a wide variety of kimonos. </p>
+
+                    <p> After graduating from fashion school she was excited to start her
+                        own clothing business. After attempting to mess around with
+                        creating her own website she decided it was best hire a UI
+                        Designer to create the website. That is when she contacted me to
+                        create a not only stunning but responsive website.
+                    </p>
+                    <a href="kithandkimono.html" class="button3">read more</a>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Testimonies -->
+    <section>
+
+        <div class="testimonial-section">
+            <div class="inner-width">
+                <h1>What My Clients Say</h1>
+                <div class="testimonial-pics">
+                    <img src="p2.png" alt="test-1" class="active">
+                    <img src="p1.png" alt="test-2">
+                    <img src="p3.png" alt="test-3">
+                    <img src="p4.png" alt="test-4">
+                </div>
+
+                <div class="testimonial-contents">
+                    <div class="testimonial active" id="test-1">
+                        <p>Caitlyn took on a difficult assignment and delivered like a
+                            professional. She has great skill with Wordpress and communicates
+                            well making sure that I was satisfied with the progressing state
+                            of my site. I would highly recommend Caitlyn for any Wordpress
+                            jobs and will definitely work with her again for any Wordpress
+                            needs. Thanks Caitlyn! </p>
+                        <span class="description">John / Drawbridge Website</span>
+                    </div>
+
+                    <div class="testimonial" id="test-2">
+                        <p>Was very easy to work with and answered emails at all hours of
+                            the day and night!</p>
+                        <span class="description">Eric / Travel Landing Page</span>
+                    </div>
+
+                    <div class="testimonial" id="test-3">
+                        <p>Caitlyn was a pleasure to work with and made every effort to
+                            fulfill my requests on creative direction. She was very flexible
+                            and generous with her time when I changed my mind and reversed a
+                            decision on a minor element or two on the site. Caitlyn delivers
+                            quick results and is open to suggestions.</p>
+                        <span class="description">Geraldine / Writer Portfolio</span>
+                    </div>
+
+                    <div class="testimonial" id="test-4">
+                        <p>Love working with aggressive people that get the job done without
+                            having to babysit. Will definitely continue to use Caitlyn on all my projects.</p>
+                        <span class="description"> Max / FBI Website </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            $('.testimonial-pics img').click(function() {
+                $(".testimonial-pics img").removeClass("active");
+                $(this).addClass("active");
+
+                $(".testimonial").removeClass("active");
+                $("#" + $(this).attr("alt")).addClass("active");
+            });
+        </script>
+    </section>
+
+
+    <section>
+        <form action="https://formspree.io/f/xleobklz" method="POST">
+
+            <div class="contact-section">
+                <div class="inner-width" id="contact">
+                    <h1>Get in touch</h1>
+                    <input name="name" type="text" class="name" placeholder="Your Name">
+                    <input name="_replyto" type="text" class="email" placeholder="Your Email">
+                    <textarea rows="1" name="message" placeholder="Message" class="message"></textarea>
+
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+
+        </form>
+    </section>
+</body>
+<footer>
+    <p> Copyright © 2020 Caitlyn Cook | All Rights Reserved </p>
+</footer>
+
+</html>
