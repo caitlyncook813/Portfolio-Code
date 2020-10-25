@@ -1,0 +1,522 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, .about {
+    font-family: 'Cabin', sans-serif;
+}
+
+h1 {
+    font-size: 100px;
+    line height: 130%;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 130%;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    font-weight: normal;
+    letter-spacing: 0.9px;
+}
+
+p {
+    line-height: 150%;
+    color: #424242;
+    letter-spacing: 0.9px;
+    background-color: inherit;
+
+}
+
+.introduction {
+    font-size: 70px;
+    color: #F0EFF4;
+    margin-top: 180px;
+    letter-spacing: 3.0px;
+}
+
+
+.introduction2 {
+    font-size: 120px;
+    letter-spacing: 3.0px;
+}
+
+ul li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+img {
+    max-width: 80%;
+}
+
+.img2 {
+    max-width: 60%;
+}
+
+.img3 {
+    max-width: 50%;
+    margin-top: -150px;
+    margin-left: 350px;
+    margin-right: 200px;
+}
+
+.img4 {
+    margin-left: 100px;
+}
+
+
+nav {
+    background-color: #ffbac1;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    font-size: 14px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav li a:hover {
+    color: white;
+}
+
+.empty {
+    width: 90px;
+    border-top: 1px solid black;
+    top: -5px;
+    position: relative;
+}
+
+
+header {
+    top: 70px;
+    position: relative;
+    margin-bottom: 220px;
+    background-image: url('../bacckground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -10px;
+
+}
+
+
+.button {
+    border: 1px solid #ffbac1;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffbac1;
+    padding: 10px 20px;
+    margin-top: 0px;
+    margin-left: 120px;
+    display: inline-block;
+    border-radius: 20px;
+
+}
+
+.button3 {
+    border: 1px solid #ffbac1;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffbac1;
+    padding: 10px 20px;
+    margin-top: 40px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.case-study {
+    font-size: 18px;
+    line-height: 130px;
+    margin bottom: 130px;
+    margin-top: 10px;
+    margin-right: 120px;
+    margin-left: 120px;
+
+}
+
+.button2 {
+    border: 1px solid white;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 40px;
+    display: inline-block;
+    border-radius: 20px;
+    transition: background 0.4 ease-in-out, color;
+}
+
+.button:hover {
+    background: #ffbac1;
+    color: white;
+}
+
+.button3:hover {
+    background: #ffbac1;
+    color: white;
+}
+
+.button2:hover {
+    background: white;
+    color: #ffbac1;
+}
+
+.intro-img {
+    margin-top: -20px;
+    margin-bottom: 10px;
+    max-width: 150%;
+    margin-left: -150px
+}
+
+/* About Me Section */
+
+.about {
+    text-align: center;
+}
+
+.about h1 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 50px;
+    margin-top: -60px;
+    margin-bottom: 10px;
+}
+
+.about p {
+    letter-spacing: 3px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+.about-button {
+    display: inline-block;
+    border: 1px solid #ffbac1;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffbac1;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.about-button:hover {
+
+    background: #ffbac1;
+    color: white;
+    text-transform: uppercase;
+}
+
+.project-description {
+    margin-top: -0px;
+}
+
+.project {
+    margin: 70px 0;
+    padding: 50px;
+}
+
+.projectblue {
+    background-color: #F0EFF4;
+    margin: 70px 0;
+    padding: 50px;
+}
+
+.col-closer {
+    margin-top: -200px;
+}
+
+.up {
+    text-align: center;
+
+}
+
+/*Testimonies*/
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.testimonial-section {
+    background: #F0EFF4;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.inner-width {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.testimonial-section h1 {
+    font-weight: 400;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+.testimonial p {
+    background-color: #11ffee00;
+    margin-bottom: 20px;
+}
+
+.testimonial-pics {
+    padding: 40px 0;
+}
+
+.testimonial-pics img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 20px;
+    filter: grayscale(100%);
+    transition: .3s;
+    cursor: pointer;
+
+}
+
+.testimonial-pics img:hover,
+.testimonial-pics img.active {
+    filter: none;
+
+}
+
+
+
+.testimonial-contents {
+    max-width: 600px;
+    margin: auto;
+
+}
+
+.testimonial {
+    display: none;
+}
+
+.testimonial.active {
+    display: block;
+    background-color: #11ffee00;
+}
+
+.testimonial .description {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 15px;
+}
+
+/* Slideshow */
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin-left: 200px;
+    margin-top: 50px;
+
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #ffbac1;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/6 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+
+/* Contact Me */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "montserrat", sans-serif;
+}
+
+.contact-section {
+    background: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.inner-width {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.contact-section h1 {
+    font-size: 25px;
+    color: #ffbac1;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: 400;
+}
+
+.name,
+.email,
+.message {
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+    color: #888;
+    padding: 10px 6px;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.name {
+    float: left;
+    width: 270px;
+}
+
+.email {
+    float: right;
+    width: 270px;
+}
+
+.message {
+    min-width: 100%;
+    max-width: 100%;
+}
+
+
+.contact-section button {
+    background: none;
+    border: 1px solid #ffbac1;
+    color: #ffbac1;
+    padding: 10px 20px;
+    margin-top: 0px;
+    display: inline-block;
+    border-radius: 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.contact-section button:hover {
+    background: #ffbac1;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+@media screen and (max-width:600px) {
+
+    .name,
+    .email {
+        width: 100%;
+    }
+}
+
+.right-alignment {
+    text-align: right;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    margin: 100px;
+    margin-top: -30px;
+    margin-bottom: -30px;
+}
